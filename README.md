@@ -1,6 +1,9 @@
 # Grocy MCP Add-on for Home Assistant
 
-Home Assistant add-on that runs [grocy-mcp](https://github.com/moustafattia/grocy-mcp) as a persistent HTTP MCP server, enabling Claude.ai and other AI agents to manage your Grocy instance remotely.
+Home Assistant add-on that runs [grocy-mcp](https://github.com/yoktobit/grocy-mcp) as a persistent HTTP MCP server, enabling Claude.ai and other AI agents to manage your Grocy instance remotely.
+
+## Diclaimer
+**This is a fork of https://github.com/moustafattia/grocy-mcp**
 
 ## Features
 
@@ -9,13 +12,13 @@ Home Assistant add-on that runs [grocy-mcp](https://github.com/moustafattia/groc
 - Auto-generated secret URL path (128-bit entropy) for security
 - Two-stage Docker build for minimal image size
 
-This add-on currently packages `grocy-mcp` `0.2.0`.
+This add-on currently packages `grocy-mcp` `0.2.1`.
 
 ## Installation
 
 1. In Home Assistant, go to **Settings > Add-ons > Add-on Store**
 2. Click the overflow menu (top right) > **Repositories**
-3. Add: `https://github.com/moustafattia/grocy-mcp-addon`
+3. Add: `https://github.com/yoktobit/grocy-mcp-addon`
 4. Find **Grocy MCP Server** in the store and install it
 
 ## Configuration
@@ -36,4 +39,5 @@ This add-on currently packages `grocy-mcp` `0.2.0`.
 ## Links
 
 - [grocy-mcp on PyPI](https://pypi.org/project/grocy-mcp/)
-- [grocy-mcp source](https://github.com/moustafattia/grocy-mcp)
+- [grocy-mcp original source](https://github.com/moustafattia/grocy-mcp)
+- [grocy-mcp fork source](https://github.com/yoktobit/grocy-mcp)
