@@ -11,7 +11,7 @@ RUN apt-get update \
 RUN uv venv .venv
 RUN --mount=type=cache,target=/root/.cache/uv \
     uv pip install --python .venv/bin/python \
-  "git+https://github.com/yoktobit/grocy-mcp.git@dca7755ecef1ae4d57bc6b7db6e7cd920d17a796"
+  "git+https://github.com/yoktobit/grocy-mcp.git@144cd0a0df07316a3e474f0e631b8d808134c605"
 
 # Stage 2: Runtime
 FROM python:3.13-slim

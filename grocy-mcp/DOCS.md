@@ -2,7 +2,7 @@
 
 This add-on runs [grocy-mcp](https://pypi.org/project/grocy-mcp/) as an HTTP MCP server, providing 80+ Grocy tools to AI agents like Claude and other MCP clients.
 
-The current add-on release packages `grocy-mcp` `0.2.1`, including workflow helpers, planning surfaces, batteries, equipment, files, print actions, discovery helpers, and broader catalog access.
+The current add-on release packages `grocy-mcp` `0.2.2`, including workflow helpers, planning surfaces, batteries, equipment, files, print actions, discovery helpers, and broader catalog access.
 
 ## Configuration
 

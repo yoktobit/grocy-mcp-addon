@@ -12,7 +12,7 @@ Home Assistant add-on that runs [grocy-mcp](https://github.com/yoktobit/grocy-mc
 - Auto-generated secret URL path (128-bit entropy) for security
 - Two-stage Docker build for minimal image size
 
-This add-on currently packages `grocy-mcp` `0.2.1`.
+This add-on currently packages `grocy-mcp` `0.2.2`.
 
 ## Installation
 
