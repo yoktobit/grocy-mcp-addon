@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.1
+- bump bundled `grocy-mcp` package from `0.2.0` to `0.2.1`
+
 ## 0.2.0
 
 - Bumped bundled `grocy-mcp` package from `0.1.1` to `0.2.0`
